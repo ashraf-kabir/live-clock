@@ -23,7 +23,7 @@
 
     function timestamp() {
       $.ajax({
-        url: '/live_clock/timestamp.php',
+        url: '/live-clock/timestamp.php',
         success: function(data) {
           $('.timestamp').html(data);
         },
